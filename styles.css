@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+}
+nav{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space space-between;
+    align-items: centre;
+
+    width: 80%;
+    margin: 0px auto;
+    background-color: grey;
+}
+header nav a{
+    padding: 5px 20px;
+}
+header div{
+    color: light white;
+}
+footer a.social-link svg{
+    fill: rgb(0, 132, 255);
+    height:30px;
+    padding: 5px;
+}
